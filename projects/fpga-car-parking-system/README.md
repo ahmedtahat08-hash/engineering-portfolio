@@ -6,7 +6,6 @@ This project is a Digital Circuits lab design for an automated two-floor parking
 
 The garage has two floors with 8 parking spaces on each floor, for a total of 16 parking spaces. The system prevents the gate from opening when the garage is full and assigns parking in order to reduce congestion.
 
-**Project Slides:** [View Slides](fpga-car-parking-system-slides.pptx)
 
 ## Key Skills
 
