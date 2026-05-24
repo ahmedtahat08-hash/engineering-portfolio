@@ -18,6 +18,10 @@ I am interested in electrical engineering internships related to embedded system
 
 ## Featured Engineering Projects
 
+- [Wireless Motor PWM Control System](projects/wireless-motor-pwm-control/)
+- [PID and Lag-Lead Controller Design](projects/pid-lag-lead-controller-design/)
+- [FPGA-Based Car Parking System](projects/fpga-car-parking-system/)
+- [Matrix Calculator in C](projects/matrix-calculator-c/)
 ---
 
 ## Wireless Motor PWM Control System
@@ -41,7 +45,7 @@ Embedded Systems, C Programming, MSP430FR2355, UART, PWM, I2C LCD, HM-11 Bluetoo
 - Integrated an I2C LCD display to show live motor speed feedback.
 - Tested the system with multiple speed inputs and confirmed stable Bluetooth communication and proportional motor response.
 
-### Resume Bullets
+### Technical Summary
 
 - Designed and tested a wireless motor speed control system using MSP430FR2355, HM-11 Bluetooth, L298N motor driver, UART, PWM, and a 12V DC motor.
 - Programmed C-based motor control logic to receive smartphone speed commands from 0% to 100% and display real-time feedback using an I2C LCD.
@@ -70,7 +74,7 @@ Control Systems, PID Control, Lag-Lead Compensation, Root Locus, Transfer Functi
 - Evaluated system performance using overshoot, peak time, settling time, rise time, and steady-state error.
 - Documented error analysis between hand calculations and simulation results.
 
-### Resume Bullets
+### Technical Summary 
 
 - Designed and tuned PID and lag-lead controllers using root locus analysis, transfer function modeling, and MATLAB/Simulink verification.
 - Compared uncompensated, PD, PID, and lag-lead step responses to evaluate overshoot, peak time, settling time, and steady-state error.
@@ -97,7 +101,7 @@ Digital Logic, FPGA Design Concepts, Verilog/System Design, Boolean Logic, Senso
 - Designed gate control conditions to prevent entry when the garage is full.
 - Included floor selection and parking spot display using a seven-segment display.
 
-### Resume Bullets
+### Technical Summary
 
 - Designed an FPGA-based digital parking system concept using sensor inputs to control gate access, detect available parking spaces, and prevent entry when the garage is full.
 - Developed digital logic requirements for a two-floor parking garage with 16 total spaces, ordered spot assignment, floor selection, and seven-segment display output.
@@ -130,7 +134,7 @@ C Programming, 2D Arrays, Functions, Nested Loops, Input Validation, Matrix Oper
 - Implemented Gaussian elimination with forward elimination and back substitution.
 - Used a reusable `printMatrix()` helper function to format matrix output clearly.
 
-### Resume Bullets
+### Technical Summary 
 
 - Developed a menu-driven C program for matrix addition/subtraction, multiplication, transpose, and simultaneous linear equation solving using modular functions and 2D arrays.
 - Implemented dimensional compatibility checks, formatted matrix output, and Gaussian elimination logic to improve user input validation and numerical problem solving.
