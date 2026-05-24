@@ -22,9 +22,13 @@ I am interested in electrical engineering internships related to embedded system
 
 ## Wireless Motor PWM Control System
 
+
 **Embedded Systems Course Project | Spring 2026**
 
 Designed and tested a wireless motor speed control system using a smartphone, Bluetooth communication, an MSP430FR2355 microcontroller, PWM output, a motor driver, and a 12V DC motor. The system allowed the user to send speed commands from 0% to 100% and display the motor speed in real time.
+
+**Project Page:** [View Project](projects/wireless-motor-pwm-control/)  
+**Project Report:** [View PDF](projects/wireless-motor-pwm-control/wireless-motor-pwm-final-report.pdf)
 
 ### Key Skills
 
@@ -49,6 +53,10 @@ Embedded Systems, C Programming, MSP430FR2355, UART, PWM, I2C LCD, HM-11 Bluetoo
 **Linear Control Systems Course Project | Spring 2026**
 
 Designed and verified PID and lag-lead controllers for feedback control systems using root locus analysis, transfer function modeling, MATLAB, and Simulink. The project compared uncompensated, PD, PID, and lag-lead system responses to study overshoot, peak time, settling time, and steady-state error.
+
+**Project Page:** [View Project](projects/pid-lag-lead-controller-design/)  
+**Project Report:** [View PDF](projects/pid-lag-lead-controller-design/pid-lag-lead-controller-final-report.pdf)  
+**MATLAB Verification:** [View PDF](projects/pid-lag-lead-controller-design/pid-lag-lead-matlab-verification.pdf)
 
 ### Key Skills
 
