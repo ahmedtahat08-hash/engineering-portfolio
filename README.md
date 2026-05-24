@@ -83,6 +83,8 @@ Control Systems, PID Control, Lag-Lead Compensation, Root Locus, Transfer Functi
 
 Designed a digital logic concept for a two-floor automated parking garage system. The system used parking spot sensor inputs to determine space availability, control the gate, assign parking locations, and display the floor and parking spot number using a seven-segment display.
 
+**Project Page:** [View Project](projects/fpga-car-parking-system/)  
+
 ### Key Skills
 
 Digital Logic, FPGA Design Concepts, Verilog/System Design, Boolean Logic, Sensor-Based Control, Seven-Segment Display, Gate Control
@@ -111,6 +113,9 @@ This was completed as a Digital Circuits lab design project. The original lab so
 **Computer Methods / Programming Course Project | Fall 2025**
 
 Developed a menu-driven matrix calculator in C that performs matrix addition/subtraction, matrix multiplication, matrix transpose, and simultaneous linear equation solving. The project focused on C programming, functions, 2D arrays, input validation, and numerical problem solving.
+
+**Project Page:** [View Project](projects/matrix-calculator-c/)  
+**Project Report:** [View PDF](projects/matrix-calculator-c/matrix-calculator-c-final-report.pdf)
 
 ### Key Skills
 
