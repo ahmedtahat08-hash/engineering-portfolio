@@ -56,6 +56,8 @@ MSP430FR2355
    ↓ I2C
 16x2 LCD Display
 
+``` line
+
 ## How PWM Controls Motor Speed
 
 PWM stands for Pulse Width Modulation. It controls motor speed by switching the signal ON and OFF very quickly. The duty cycle determines how much power is delivered to the motor.
