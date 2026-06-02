@@ -52,3 +52,64 @@ L298N Motor Driver
 MSP430FR2355
    ↓ I2C
 16x2 LCD Display
+
+## How PWM Controls Motor Speed
+
+PWM stands for Pulse Width Modulation. It controls motor speed by switching the signal ON and OFF very quickly. The duty cycle determines how much power is delivered to the motor.
+
+```text
+25% duty cycle  → Low speed
+50% duty cycle  → Medium speed
+75% duty cycle  → High speed
+100% duty cycle → Full speed
+```
+
+A higher duty cycle means the motor receives more average power, so it spins faster.
+
+## Why a Motor Driver Was Used
+
+The microcontroller cannot directly power a 12V DC motor because the motor requires more voltage and current than the MSP430 pins can safely provide.
+
+The L298N motor driver acts as an interface between the low-power control signal from the microcontroller and the higher-power motor circuit. This protects the microcontroller and allows the motor to operate using an external 12V supply.
+
+## Main Features
+
+- Wireless speed control using Bluetooth
+- UART communication between Bluetooth module and microcontroller
+- PWM-based DC motor speed control
+- Real-time speed percentage display on I2C LCD
+- External motor power through L298N driver
+- Hands-on embedded hardware integration
+
+## Challenges
+
+One challenge was making sure the motor received enough power without damaging the microcontroller. The motor needed a separate 12V supply, while the MSP430 only handled the control signal.
+
+Another challenge was correctly receiving Bluetooth commands through UART and converting those commands into different PWM duty cycles.
+
+A third challenge was integrating the I2C LCD so the system could display the selected motor speed clearly in real time.
+
+## Result
+
+The final system successfully controlled the speed of a 12V DC motor wirelessly using Bluetooth commands. The MSP430FR2355 generated PWM signals based on the received command, the L298N motor driver controlled the motor output, and the I2C LCD displayed the selected speed percentage.
+
+## What I Learned
+
+Through this project, I learned how embedded software and hardware work together in a real system. I gained hands-on experience with UART communication, PWM signal generation, motor driver circuits, Bluetooth modules, and LCD display integration.
+
+This project also helped me understand the importance of power management, debugging, and testing when working with hardware systems.
+
+## Future Improvements
+
+In the future, I would improve this project by:
+
+- Adding motor speed feedback using a sensor
+- Implementing closed-loop speed control
+- Adding reverse direction control
+- Creating a PCB version of the circuit
+- Improving Bluetooth range and reliability
+- Adding a mobile app interface with buttons or sliders
+
+## Project Status
+
+Completed as a working prototype for embedded systems and portfolio development.
