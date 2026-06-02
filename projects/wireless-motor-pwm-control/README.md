@@ -38,8 +38,7 @@ This project helped me practice embedded systems, PWM motor control, UART commun
 
 ## System Block Diagram
 
-````markdown
-## System Block Diagram
+
 
 ```text
 Smartphone
@@ -56,7 +55,6 @@ MSP430FR2355
    ↓ I2C
 16x2 LCD Display
 
-``` line
 
 ## How PWM Controls Motor Speed
 
